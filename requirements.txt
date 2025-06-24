@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+langchain
+openai
+faiss-cpu
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+langchain
+transformers
+torch
+sentence-transformers
