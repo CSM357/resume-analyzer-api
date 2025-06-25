@@ -1,5 +1,4 @@
-
-import fitz 
+import fitz  # PyMuPDF
 
 def parse_resume(file_bytes: bytes) -> str:
     doc = fitz.open(stream=file_bytes, filetype="pdf")

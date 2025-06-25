@@ -5,7 +5,7 @@ from rag_engine import store_and_embed, ask_question
 
 app = FastAPI()
 
-# Allow Android app to access it
+# CORS to allow Android app access
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
